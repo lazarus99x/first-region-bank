@@ -50,7 +50,7 @@ export async function sendWelcomeEmail({
   const accountTypeLabel = accountType
     ? accountType.charAt(0).toUpperCase() + accountType.slice(1).replace(/_/g, " ")
     : "Checking";
-  const loginUrl = process.env.NEXT_PUBLIC_APP_URL || "https://firstregionbank.com";
+  const loginUrl = process.env.NEXT_PUBLIC_APP_URL || "https://firstregionsbank.com";
 
   const html = `<!DOCTYPE html>
 <html>
@@ -90,10 +90,10 @@ export async function sendWelcomeEmail({
   <div class="container">
     <div class="card">
       <div class="logo">
-        <h1>First Region <span>Bank</span></h1>
+        <h1>First Regions <span>Bank</span></h1>
       </div>
 
-      <h2>Welcome to First Region Bank</h2>
+      <h2>Welcome to First Regions Bank</h2>
       <p>Dear ${fullName},</p>
       <p>
         Your account has been successfully created. Below are your account details.
@@ -148,7 +148,7 @@ export async function sendWelcomeEmail({
 
   try {
     await transport.sendMail({
-      from: `"${COMPANY.NAME}" <${process.env.SMTP_FROM || "noreply@firstregionbank.com"}>`,
+      from: `"${COMPANY.NAME}" <${process.env.SMTP_FROM || "noreply@firstregionsbank.com"}>`,
       to: email,
       subject: `Welcome to ${COMPANY.NAME} — Your Account is Ready`,
       html,

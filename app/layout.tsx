@@ -28,34 +28,34 @@ const jetbrainsMono = JetBrains_Mono({
 /* ── Metadata ─────────────────────────────────────────────── */
 export const metadata: Metadata = {
   title: {
-    default: "First Region Bank — Premium Digital Banking",
-    template: "%s | First Region Bank",
+    default: "First Regions Bank — Premium Digital Banking",
+    template: "%s | First Regions Bank",
   },
   description:
-    "Experience premium digital banking with First Region Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
+    "Experience premium digital banking with First Regions Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
   keywords: [
-    "First Region Bank",
+    "First Regions Bank",
     "digital banking",
     "online banking",
     "premium banking",
     "multi-currency",
     "secure banking",
   ],
-  authors: [{ name: "First Region Bank" }],
-  creator: "First Region Bank",
+  authors: [{ name: "First Regions Bank" }],
+  creator: "First Regions Bank",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "First Region Bank",
-    title: "First Region Bank — Premium Digital Banking",
+    siteName: "First Regions Bank",
+    title: "First Regions Bank — Premium Digital Banking",
     description:
-      "Experience premium digital banking with First Region Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
+      "Experience premium digital banking with First Regions Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "First Region Bank — Premium Digital Banking",
+    title: "First Regions Bank — Premium Digital Banking",
     description:
-      "Experience premium digital banking with First Region Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
+      "Experience premium digital banking with First Regions Bank. Secure accounts, intelligent transfers, multi-currency support, and 24/7 dedicated support.",
   },
   icons: {
     icon: "/favicon.svg",
